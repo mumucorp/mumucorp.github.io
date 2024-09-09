@@ -1,0 +1,335 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #fff3db;
+    
+}
+.nav{
+    background-color: #fff;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 0 5px #bcbcbc;
+    position: relative;
+    width: 100%;
+    z-index: 9;
+    margin-bottom: 30px;
+}
+.brand{
+    height: 70%;
+}
+.grid{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(./data/imgs/grid.png);
+    background-repeat: repeat;
+    background-size: 50px;
+    opacity: .2;
+}
+.header{
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row-reverse;
+
+
+    position: relative;
+    min-height: 500px;
+}
+.header-txt{
+    width: 75%;
+    text-align: end;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+.header-img{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.mumud-img{
+    width: 75%;
+    border-radius: 15px;
+    padding: 2vmin;
+    box-shadow: 0 0 10px #888;
+    opacity: 0.95;
+    image-rendering: optimizequality;
+}
+.first-app{
+    height: auto;
+    background: linear-gradient(45deg , rgb(78, 78, 226) , rgb(43, 204, 43));
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+.second-app{
+    background-color: transparent;
+}
+.third-app{
+    background: linear-gradient(45deg , #f5fd2d , #f11);
+    position: relative;
+    height: auto;
+    padding: 25px;
+    position: relative;
+    height: auto;
+}
+.fourth-app{
+    min-height: 500px;
+    background-color: transparent;
+    position: relative;
+    height: auto;
+
+    flex-direction: row;
+}
+.colorful{
+    box-shadow: 0px 2px 5px rgb(99, 99, 99);
+}
+.padding-l-r{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.h1 {
+    color: #292929;
+    margin: 0;
+  }
+  h3 {
+    color: #585858;
+    margin: 0;
+    font-size: 18px;
+  }
+  .about {
+    color: #7c7c7c;
+  }
+.h2{
+    color: #fff;
+    text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+.about-trex{
+    color: #e0e0e0;
+    margin-bottom: 50px;
+    text-shadow: 1px 3px 5px rgb(0 0 0 /50%);
+}
+.trex-img{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    padding: 0;
+    opacity: 1;
+    filter: contrast(1.15);
+}
+.tarneb-img{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    padding: 0;
+    opacity: 1;
+    filter: contrast(1.15);
+}
+.h1-tarneb{
+    color: #fff;
+    text-shadow: 1px 3px 5px rgb(0 0 0 /50%);
+}
+.header-txt-trex {
+    text-align: center;
+    align-items: center;
+  }
+
+.ksas-img {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    padding: 0;
+    opacity: 1;
+    filter: contrast(1.15);
+  }
+  .kuba-img {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    padding: 0;
+    opacity: 1;
+    filter: contrast(1.15);
+  }
+  .about-tarneb {
+    text-shadow: 1px 3px 5px rgb(0 0 0 /30%);
+  }
+  .header-txt-tarneb {
+    width: 100%;
+  }
+  .fifth-app{
+    min-height: 400px;
+    background: linear-gradient(45deg , #8500b9 , rgb(252, 23, 23));
+    position: relative;
+    height: auto;
+    padding: 25px;
+  }
+    .h1-soon {
+      color: #fff;
+      text-shadow: 1px 3px 5px rgb(0 0 0 /50%);
+    }
+    .about-soon {
+      color: #e0e0e0;
+      text-shadow: 1px 3px 5px rgb(0 0 0 /50%);
+    }
+    .footer{
+      min-height: 500px;
+      background: #1e1e1e;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .footer-end{
+      height: 36px;
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px;
+    }
+    .footer-content{
+      height: calc(100% - 50px);
+      background: transparent;
+      direction: rtl;
+      padding: 25px;
+      color: #fff;
+      display: flex;
+      flex-direction: row;
+    }
+    .footer-content p{
+      margin: 5px;
+      color: #7c7c7c;
+    }
+    .send-btn{
+      padding: 5px 30px;
+      display: block;
+      margin: 10px 0;
+      font-size: 15px;
+      border: none;
+      outline: none;
+      background: linear-gradient(45deg , #8500b9 , rgb(252, 23, 23));
+      border-radius: 5px;
+      cursor: pointer;
+      color: #fff;
+      box-shadow: 0px 0px 15px #111;
+    }
+    #send-msg{
+      width: 85%;
+      height: 200px;
+      border-radius: 5px;
+      border: none;
+      background-color: #7c7c7c;
+      outline: none;
+    }
+    .send-us-header{
+      color: #fff;
+      font-size: 30px;
+      text-shadow: 1px 1px 5px black;
+    }
+    .user{
+      width: 200px;
+      border-radius: 5px;
+      border: none;
+      background-color: #7c7c7c;
+      padding: 5px;
+      outline: none;
+    }
+    .email{
+      width: 200px;
+      border-radius: 5px;
+      border: none;
+      background-color: #7c7c7c;
+      padding: 5px;
+      outline: none;
+    }
+    .send-us {
+      width: 50%;
+      border-left: 1px dashed #414141;
+    }
+    .other {
+      width: 50%;
+    }
+    .brand-squares{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 40px;
+      height: 100%;
+      padding: 20px;
+      transform: translateX(-20px);
+    }
+    .brand-squares .sqr{
+      flex-basis: calc(33.33% - 40px);
+      height: fit-content;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .brand-squares img{
+      width: 10vmin;
+    }
+
+h2 {
+  color: #292929;
+}
+
+    /********************  Media Query  ************************/
+    @media (max-width: 768px){
+      .header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .padding-l-r {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+      .header-txt{
+        width: 90%
+      }
+      .header-txt-tarneb{
+        width: 90%;
+      }
+      .third-app{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .header-img{
+        width: 50%;
+        margin: 15px;
+      }
+      #send-msg{
+        width: 100%;
+        height: 200px;
+      }
+      .footer-content{
+        flex-direction: column;
+      }
+      .send-us{
+        width: 100%;
+        border: none;
+        border-bottom: 1px dashed #5a5a5a;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+      }
+      .other{
+        width: 100%;
+      }
+      .user{
+        width: 100%;
+      }
+      .email{
+        width: 100%;
+      }
+    }
